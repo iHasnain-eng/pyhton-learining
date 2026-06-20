@@ -146,9 +146,15 @@ marks.update({"english":d})
 e=int(input("enter IT marks:"))
 marks.update({"IT":e})
 
+f=int(input("enter biology marks:"))
+marks.update({"IT":f})
+
 
 print(marks)
-percentage=((a+b+c+d+e)/500)*100
+percentage=((a+b+c+d+e+f)/600)*100
 
 print("your percentage is :",percentage)
 print("your combined marks is here")
+
+
+    
